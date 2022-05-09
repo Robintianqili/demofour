@@ -1,3 +1,5 @@
-LUCKY_NUMBER=7
-RESULT=$LUCKY_NUMBER+8
-echo $RESULT
+let "VAR = 5 + 4"
+let VAR++
+RES=$(( VAR + 3 ))
+(( RES-- ))
+echo $RES
